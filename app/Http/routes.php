@@ -33,3 +33,7 @@ $this->post('password/reset', 'Auth\PasswordController@reset');
 
 $this->get('add_blog', 'BlogController@addBlog');
 $this->post('blog/store','BlogController@store');
+$this->get('blog', 'BlogController@index');
+$this->get('blog/edit/{blog_id}', 'BlogController@edit');
+$this->post('blog/update', 'BlogController@update');
+$this->get('blog/delete/{blog_id}', 'BlogController@deleteBlog');

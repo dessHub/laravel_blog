@@ -24,6 +24,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+         $name = DB::table('users');
+        return view('home')->with('name', $name);
     }
 }

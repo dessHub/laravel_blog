@@ -13,7 +13,7 @@ class Blog extends Model
      * @var array
      */
     protected $table = 'blog';
-
+    protected $primaryKey = 'blog_id';
     protected $fillable = [
       'blog_id', 'blog_name', 'blog_url', 'blog_desc',
     ];

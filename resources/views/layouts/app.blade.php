@@ -49,6 +49,7 @@
                 <ul class="nav navbar-nav">
                     <li><a href="{{ url('/home') }}">Home</a></li>
                     <li><a href="{{ url('/add_blog') }}">Add</a></li>
+                    <li><a href="{{ url('/blog') }}">Blogs</a></li>
                 </ul>
 
                 <!-- Right Side Of Navbar -->
